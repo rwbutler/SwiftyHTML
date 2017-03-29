@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyHTML (0.1.0)
+
+DEPENDENCIES:
+  - SwiftyHTML (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftyHTML:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SwiftyHTML: 3dfd30b11f3d22baea346723dd403e7b3634adeb
+
+PODFILE CHECKSUM: edaf8a68b4b14080cb20983459951974895f146e
+
+COCOAPODS: 1.2.0

@@ -1,0 +1,6 @@
+framework module Pods_SwiftyHTML_Tests {
+  umbrella header "Pods-SwiftyHTML_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

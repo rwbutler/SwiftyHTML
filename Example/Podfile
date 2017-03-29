@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftyHTML_Example' do
+  pod 'SwiftyHTML', :path => '../'
+
+  target 'SwiftyHTML_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

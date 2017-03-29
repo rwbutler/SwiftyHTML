@@ -1,0 +1,22 @@
+{
+  "name": "SwiftyHTML",
+  "version": "0.1.0",
+  "summary": "SwiftyHTML makes it easy to model HTML documents in Swift.",
+  "description": "SwiftyHTML makes it easy to model HTML documents in Swift.",
+  "homepage": "https://github.com/rwbutler/SwiftyHTML",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rwbutler": "github@rwbutler.com"
+  },
+  "source": {
+    "git": "https://github.com/rwbutler/SwiftyHTML.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftyHTML/Classes/**/*"
+}

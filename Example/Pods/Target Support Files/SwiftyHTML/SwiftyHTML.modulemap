@@ -1,0 +1,6 @@
+framework module SwiftyHTML {
+  umbrella header "SwiftyHTML-umbrella.h"
+
+  export *
+  module * { export * }
+}
