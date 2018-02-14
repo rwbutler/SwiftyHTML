@@ -15,14 +15,14 @@ public indirect enum HTML {
     case unorderedList([HTML], [HTMLAttribute]?)
     
     var endTag: String {
-        return "</" + self.tagName + ">"
+        return "</\(self.tagName)>"
     }
     
     func startTag(_ attributes: [Dictionary<String, String>.Element]?) -> String {
         guard let attributes = attributes else {
-            return "<" + tagName + ">"
+            return "<\(tagName)>"
         }
-        return attributes.reduce("<" + tagName, { $0 + " " + $1.key + "=\"" + $1.value }) + "\">"
+        return attributes.reduce("<\(tagName)", { "\($0) \($1.key)=\"\($1.value)\"" }) + ">"
     }
     
     private var tagName: String {
