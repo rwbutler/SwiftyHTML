@@ -8,17 +8,11 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftyHTML'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'SwiftyHTML makes it easy to model HTML documents in Swift.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.swift_version    = '3.2'
   s.description      = <<-DESC
-SwiftyHTML makes it easy to model HTML documents in Swift.
+SwiftyHTML makes it easy to model and generate HTML documents using Swift.
                        DESC
 
   s.homepage         = 'https://github.com/rwbutler/SwiftyHTML'
