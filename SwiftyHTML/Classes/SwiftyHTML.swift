@@ -3,7 +3,6 @@ import Foundation
 public typealias HTMLAttribute = Dictionary<String, String>.Element
 
 public indirect enum HTML {
-    
     case anchor([HTML], [HTMLAttribute]?)
     case body([HTML], [HTMLAttribute]?)
     case head([HTML], [HTMLAttribute]?)
@@ -13,18 +12,15 @@ public indirect enum HTML {
     case orderedList([HTML], [HTMLAttribute]?)
     case text(String)
     case unorderedList([HTML], [HTMLAttribute]?)
-    
     var endTag: String {
         return "</\(self.tagName)>"
     }
-    
     func startTag(_ attributes: [Dictionary<String, String>.Element]?) -> String {
         guard let attributes = attributes else {
             return "<\(tagName)>"
         }
         return attributes.reduce("<\(tagName)", { "\($0) \($1.key)=\"\($1.value)\"" }) + ">"
     }
-    
     private var tagName: String {
         switch self {
         case .anchor:
