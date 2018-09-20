@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name             = 'SwiftyHTML'
-  s.version          = '0.2.2'
+  s.version          = '0.3.0'
   s.summary          = 'SwiftyHTML makes it easy to model HTML documents in Swift.'
-  s.swift_version    = '3.2'
+  s.swift_version    = '4.2'
   s.description      = <<-DESC
 SwiftyHTML makes it easy to model and generate HTML documents using Swift.
                        DESC
